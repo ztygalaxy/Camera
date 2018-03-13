@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_check"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.zty.camera.CheckActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iv_contacts"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/up"/>
+
+        <EditText
+            android:id="@+id/et_mail"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_contacts"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:hint="请输入序列号"
+            android:lines="1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#9f9f9f"
+            android:textSize="20sp"/>
+        <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_below="@id/et_mail"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+        <Button
+            android:id="@+id/btn_cg_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_mail"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:text="激  活"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_cg_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:text="  没有序列号？"
+        android:textAlignment="center"
+        android:textColor="#797979"
+        android:textSize="10sp"/>
+</RelativeLayout>
