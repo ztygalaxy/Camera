@@ -19,3 +19,9 @@ Its code is very simple and we focused on algorithm application.
 Developed by 张天宇 高嵩 王伟英 2017
 
 ![Demo](screenshot.png)
+
+#### Memo
+
+Threshold will be setting automatically by OTSU algorithm based genetic algorithm.
+
+If you have any better algorithm about seed counting, please [connect](mailto:tyzhang@hdu.edu.cn) me.
