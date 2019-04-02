@@ -1,12 +1,10 @@
 <p align="center">
 	<img width="100" height="100" src="app\src\main\res\mipmap-xxhdpi\logo.png" alt="logo">
 </p>
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![Badge](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/#/zh_CN)
-[![Mail](https://img.shields.io/badge/mail-zhangty1996@163.com-orange.svg)]()
-
 
 ## Camera
+
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)[![Badge](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/#/zh_CN)[![Mail](https://img.shields.io/badge/mail-zhangty1996@163.com-orange.svg)]()
 
 #### A software for Arabidopsis seeds counting.
 
