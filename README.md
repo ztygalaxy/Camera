@@ -4,20 +4,43 @@
 
 ## Camera
 
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)  [![Badge](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/#/zh_CN)  [![Mail](https://img.shields.io/badge/mail-zhangty1996@163.com-orange.svg)]()
+### A software for counting arabidopsis seeds.
 
-#### A software for Arabidopsis seeds counting.
-
-Based on corrosion algorithm [Here](https://ztygalaxy.github.io/%E5%85%B3%E4%BA%8E%E5%9C%86%E6%BB%91%E7%89%A9%E4%BD%93%E8%AE%A1%E6%95%B0%E7%9A%84%E4%B8%80%E7%82%B9%E6%80%9D%E8%80%83/)
-
-Its code is very simple and we focused on algorithm application.
-
-Developed by 张天宇 高嵩 王伟英 2017
+### 🌈 Demo
 
 ![Demo](screenshot.png)
 
-#### Memo
+### 🛵 Platform
 
-Threshold will be setting automatically by OTSU algorithm based genetic algorithm.
+- Android 4.0.0+.
 
-If you have any better algorithm about seed counting, please [connect](mailto:tyzhang@hdu.edu.cn) me.
+- Developed by Android Studio.
+
+### ✍ Algorithm
+
+- [Corrosivity Classification Schemes](https://blog.csdn.net/li_wen01/article/details/72867057)
+
+### 🔨 Usage
+
+- Build APP
+  
+  - Import it in Android Studio as a project.
+
+  - Update and sync the necessary module.
+- Use App
+  - Take a photo of your seed on a white paper that does not produce shadows.
+  - App will recommend a suitable threshold for you, you can adjust it manually.
+  - Check the result.
+
+### 🎤 Others
+
+- Its architecture is very simple and we focused on algorithm application.
+- Developed by Group [Tianyu Zhang](https://ztygalaxy.github.io) \ Song Gao \ Weiying Wang in 2017.
+- First Vision: 2017 v1.3.328
+- It was supported by 2016 National Student Research & Training Plan.
+
+#### 📜  Memo
+
+- Threshold will be setting automatically by OTSU algorithm based genetic algorithm in the next version.
+
+- If you have any better idea, please [connect](mailto:tyzhang@hdu.edu.cn) me.
