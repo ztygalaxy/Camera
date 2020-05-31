@@ -2,7 +2,7 @@
 	<img width="100" height="100" src="app\src\main\res\mipmap-xxhdpi\logo.png" alt="logo">
 </p>
 
-## Camera / 千粒重
+## 千粒重
 
 ### 一个用于拟南芥种子计数的Android APP
 
