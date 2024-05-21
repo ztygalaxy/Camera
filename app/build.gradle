@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.test.zty.camera"
@@ -17,17 +16,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'com.test.zty.camera'
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:24.1.1'
-    compile 'com.android.support:support-v4:24.1.1'
-    compile 'com.android.support:design:24.1.1'
-    compile files('src/main/libs/commons-logging-1.1.1.jar')
-    compile files('src/main/libs/httpclient-4.2.5.jar')
-    compile files('src/main/libs/httpclient-cache-4.2.5.jar')
-    compile files('src/main/libs/httpcore-4.2.4.jar')
-    compile files('src/main/libs/httpmime-4.2.5.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:24.1.1'
+    implementation 'com.android.support:support-v4:24.1.1'
+    implementation 'com.android.support:design:24.1.1'
+    implementation files('src/main/libs/commons-logging-1.1.1.jar')
+    implementation files('src/main/libs/httpclient-4.2.5.jar')
+    implementation files('src/main/libs/httpclient-cache-4.2.5.jar')
+    implementation files('src/main/libs/httpcore-4.2.4.jar')
+    implementation files('src/main/libs/httpmime-4.2.5.jar')
 }
